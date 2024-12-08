@@ -15,7 +15,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Set the theme to 'darkblood'
 sudo sed -i 's/ZSH_THEME=".*"/ZSH_THEME="darkblood"/' ~/.zshrc
 
-# Apply changes
-exec zsh
-
+#Install complete
 echo "Installation and configuration complete!"
+
+chsh -s /bin/zsh $USER
+
+exec zsh
