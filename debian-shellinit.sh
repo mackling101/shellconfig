@@ -16,6 +16,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sed -i 's/ZSH_THEME=".*"/ZSH_THEME="darkblood"/'
 
 # Apply changes
-exec zsg
+exec zsh
 
 echo "Installation and configuration complete!"
