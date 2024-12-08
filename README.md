@@ -8,7 +8,7 @@ This script should be executed without Sudo, but passwords will have to be provi
 
 1. grab the raw file
 
-    `curl https://raw.githubusercontent.com/mackling101/shellconfig/refs/heads/main/debian-shellinit.sh`
+    `curl https://raw.githubusercontent.com/mackling101/shellconfig/refs/heads/main/debian-shellinit.sh -O`
 
 1. make the raw .sh executable
 
