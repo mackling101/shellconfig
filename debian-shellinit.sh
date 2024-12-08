@@ -13,7 +13,7 @@ sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Set the theme to 'darkblood'
-sed -i 's/ZSH_THEME=".*"/ZSH_THEME="darkblood"/'
+sudo sed -i 's/ZSH_THEME=".*"/ZSH_THEME="darkblood"/' /root/.zshrc
 
 # Apply changes
 exec zsh
