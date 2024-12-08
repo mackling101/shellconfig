@@ -10,7 +10,7 @@ sudo apt install -y tmux
 sudo apt install -y zsh
 
 # Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  --unattended
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Set the theme to 'darkblood'
 sed -i 's/ZSH_THEME=".*"/ZSH_THEME="darkblood"/'
