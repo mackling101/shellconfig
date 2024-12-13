@@ -15,7 +15,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Set the theme to 'darkblood'
 sudo sed -i 's/ZSH_THEME=".*"/ZSH_THEME="darkblood"/' ~/.zshrc
 
-# create tmux.conf and source files
+# create tmux.conf and source files (if utilizing your own repo update the curl refs)
 curl https://raw.githubusercontent.com/mackling101/shellconfig/refs/heads/main/tmux/.tmux.conf -O
 curl https://raw.githubusercontent.com/mackling101/shellconfig/refs/heads/main/tmux/.file.conf -O
 
